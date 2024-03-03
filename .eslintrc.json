@@ -24,7 +24,8 @@
         "@typescript-eslint"
     ],
     "ignorePatterns": [
-        "*.json"
+        "*.json",
+        "*.ts"
     ],
     "rules": {
         "@typescript-eslint/no-unsafe-assignment": "error"
