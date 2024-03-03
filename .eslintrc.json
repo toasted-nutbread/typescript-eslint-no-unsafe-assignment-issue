@@ -1,0 +1,32 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2022,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "globalReturn": false,
+            "impliedStrict": true
+        },
+        "project": [
+            "./jsconfig.json"
+        ]
+    },
+    "env": {
+        "browser": true,
+        "es2022": true,
+        "webextensions": true
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "ignorePatterns": [
+        "*.json"
+    ],
+    "rules": {
+        "@typescript-eslint/no-unsafe-assignment": "error"
+    }
+}

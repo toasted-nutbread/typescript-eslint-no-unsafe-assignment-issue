@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "ES2022",
+        "target": "ES2022",
+        "checkJs": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "strictPropertyInitialization": true,
+        "suppressImplicitAnyIndexErrors": false,
+        "skipLibCheck": false,
+        "baseUrl": ".",
+        "paths": {},
+        "types": []
+    },
+    "include": [
+        "*.js"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
